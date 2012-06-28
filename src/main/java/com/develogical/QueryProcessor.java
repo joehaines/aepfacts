@@ -121,11 +121,14 @@ public class QueryProcessor {
         }    else  if (query.contains("what currency did Spain use before the Euro")) {
             return "peseta";
 
+        }     else  if (query.contains("which city is the Eiffel tower in")) {
+            return "paris";
+
         }
 
 
 
-        //what currency did Spain use before the Euro
+        //which city is the Eiffel tower in
 
         //default response
         return "I DON'T KNOW";
