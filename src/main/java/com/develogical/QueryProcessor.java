@@ -13,10 +13,27 @@ public class QueryProcessor {
             return "hello";
             //62694b40:%20what%20is%20your%20name
         }  else  if (query.contains("which of the following numbers is the largest")) {
+
             String numbers_result[] = query.split(":");
-            System.out.println("Numbers:" + numbers_result[1]);
-        }  else  if (query.contains("")) {
-            return "";
+            System.out.println("Numbers:" + numbers_result[2]);
+
+            String numbers[] = numbers_result[2].split(",");
+
+            int total = 0;
+
+            for (int c = 0;numbers.length == c;c++) {
+
+                total += Integer.parseInt(numbers[c]);
+
+            }
+
+            return String.valueOf(total);
+
+        }  else  if (query.contains("what is")) {
+
+
+
+
         }  else  if (query.contains("")) {
             return "";
         }  else  if (query.contains("")) {
