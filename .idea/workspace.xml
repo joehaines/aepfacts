@@ -4,7 +4,6 @@
     <list default="true" id="ba64a957-23a4-4ad8-8c8b-6b9ea3a17cd4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" />
     </list>
     <ignored path="aepfacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,19 +61,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="QueryProcessorTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="QueryProcessorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="214" selection-end="214" vertical-scroll-proportion="0.11320755">
+            <state line="27" column="7" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryProcessor.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="QueryProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="42" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+            <state line="57" column="48" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.6886792">
               <folding />
             </state>
           </provider>
@@ -583,14 +582,18 @@
       <created>1340892947678</created>
       <updated>1340892947678</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changed to use foreman with port 5000">
+      <created>1340893423477</created>
+      <updated>1340893423477</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1371" height="957" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33373207" sideWeight="0.9992424" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33373207" sideWeight="0.9992424" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -718,16 +721,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="42" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+        <state line="27" column="7" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="214" selection-end="214" vertical-scroll-proportion="0.11320755">
+        <state line="57" column="48" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.6886792">
           <folding />
         </state>
       </provider>

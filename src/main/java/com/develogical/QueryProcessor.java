@@ -24,13 +24,49 @@ public class QueryProcessor {
 
         }  else  if (query.contains("what is")) {
 
+            System.out.println("WHAT IS STARTING");
+
+            //332153a0: what is 10 multiplied by 13
+
             //get out the two numbers and the operator
-            String function[] = query.split(":");
+            String numbers = query.substring(18, query.length());
 
+            //10 multiplied by 13
 
+            String tokens[] = numbers.split(" ");
 
+            //first number tokens[0]
+            //second number tokens[3]
+            //operand tokens[1]
+
+            int result = 0;
+            int first = Integer.parseInt(tokens[0]);
+            int second = Integer.parseInt(tokens[3]);
+
+            if (tokens[1].equals("multiplied")) {
+
+                result = (first*second);
+
+            } else if (tokens[1].equals("plus")) {
+
+                result = (first+second);
+
+            } else if (tokens[1].equals("minus")) {
+
+                result = (first-second);
+
+            } else if (tokens[1].equals("divided")) {
+
+                result = (first/second);
+
+            }
+
+            return String.valueOf(result);
 
         }  else  if (query.contains("")) {
+
+            //which of the following numbers is both a square and a cube: 64, 953
+
             return "";
         }  else  if (query.contains("")) {
             return "";
