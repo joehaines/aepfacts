@@ -112,11 +112,16 @@ public class QueryProcessor {
             String final_result = result.substring(0, result.length()-2);
 
             return final_result;
-        }
+        }  else  if (query.contains("who played James Bond in the film Dr No")) {
+        return "Sean Connery";
+
+         }
 
         //default response
         return "I DON'T KNOW";
     }
+
+
 
     public int findHighestNumber(String[] numbers) {
         int currentHighest = 0;
