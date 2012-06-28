@@ -61,19 +61,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AepFactsDatabaseTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/AepFactsDatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QueryProcessorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+            <state line="24" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,52 +73,7 @@
       <file leaf-file-name="QueryProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="258" selection-end="258" vertical-scroll-proportion="0.26061776">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/WebServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="36" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AepFactsDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/AepFactsDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/web/ApiResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="158" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+            <state line="9" column="43" selection-start="251" selection-end="251" vertical-scroll-proportion="0.254717">
               <folding />
             </state>
           </provider>
@@ -167,8 +113,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="967" />
+    <option name="width" value="1371" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -547,14 +493,18 @@
       <created>1340880663227</created>
       <updated>1340880663227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed to use foreman with port 5000">
+      <created>1340890578551</created>
+      <updated>1340890578551</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="967" extended-state="0" />
+    <frame x="0" y="22" width="1371" height="957" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33373207" sideWeight="0.9992424" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -567,7 +517,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34989315" sideWeight="0.67021275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20408164" sideWeight="0.66626793" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19858156" sideWeight="0.9993293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,26 +592,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/AepFactsDatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/AepFactsDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/WebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="36" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
@@ -685,9 +618,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/AepFactsDatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="558" selection-end="558" vertical-scroll-proportion="0.4054054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/WebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="36" selection-start="1907" selection-end="1907" vertical-scroll-proportion="1.0444444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="258" selection-end="258" vertical-scroll-proportion="0.26061776">
+        <state line="9" column="43" selection-start="251" selection-end="251" vertical-scroll-proportion="0.254717">
           <folding />
         </state>
       </provider>
