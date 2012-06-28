@@ -82,6 +82,7 @@ public class QueryProcessor {
 
 
 
+
             return String.valueOf(first);
 
 
@@ -108,7 +109,7 @@ public class QueryProcessor {
 
             }
 
-            String final_result = result.substring(4, result.length());
+            String final_result = result.substring(0, result.length()-2);
 
             return final_result;
         }
