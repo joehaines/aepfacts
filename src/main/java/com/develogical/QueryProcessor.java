@@ -93,7 +93,7 @@ public class QueryProcessor {
             //50183b40: which of the following numbers are primes: 199, 915, 127, 356
         }  else  if (query.contains("which of the following numbers are primes")) {
 
-            String input = query.substring(42, query.length());
+            String input = query.substring(53, query.length());
             String numbers[] = input.split(", ");
 
             String result = "";
