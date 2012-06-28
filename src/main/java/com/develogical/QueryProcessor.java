@@ -133,6 +133,8 @@ public class QueryProcessor {
             String final_result = result.substring(0, result.length()-2);
 
             return final_result;
+
+
         }  else  if (query.contains("who played James Bond in the film Dr No")) {
             return "Sean Connery";
 
@@ -145,16 +147,43 @@ public class QueryProcessor {
         }     else  if (query.contains("which city is the Eiffel tower in")) {
             return "paris";
 
+        }     else  if (query.contains("what is the 19th number in the Fibonacci sequence")) {
+
+            String input = query.substring(21, query.length()-35);
+
+            int number = Integer.parseInt(input);
+
+            return String.valueOf(findFibb(number));
+
         }
 
 
 
-        //what is the 19th number in the Fibonacci sequence
+        //42161d10: what is the 19th number in the Fibonacci sequence
 
         //default response
         return "I DON'T KNOW";
     }
 
+
+    public long findFibb(int input) {
+
+        //number of elements to generate in a series
+        int limit = 20;
+
+        long[] series = new long[limit];
+
+        //create first 2 series elements
+        series[0] = 0;
+        series[1] = 1;
+
+        //create the Fibonacci series and store it in an array
+        for(int i=2; i < limit; i++){
+            series[i] = series[i-1] + series[i-2];
+        }
+
+        return series[input];
+    }
 
 
     public int findHighestNumber(String[] numbers) {
