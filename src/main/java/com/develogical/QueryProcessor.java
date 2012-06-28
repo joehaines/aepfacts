@@ -5,7 +5,7 @@ public class QueryProcessor {
     public String process(String query) {
 
         //output the request so that we can see it easily in the log
-        System.out.println("QUERY:" + query);
+        System.out.println(query);
 
         if (query.contains("hi")) {
             return "hello";
