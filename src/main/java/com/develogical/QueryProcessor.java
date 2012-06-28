@@ -118,9 +118,14 @@ public class QueryProcessor {
         }   else  if (query.contains("what colour is a banana")) {
             return "yellow";
 
+        }    else  if (query.contains("what currency did Spain use before the Euro")) {
+            return "peseta";
+
         }
 
-        //what colour is a banana
+
+
+        //what currency did Spain use before the Euro
 
         //default response
         return "I DON'T KNOW";
