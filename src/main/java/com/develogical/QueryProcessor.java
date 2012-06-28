@@ -149,6 +149,10 @@ public class QueryProcessor {
             //second number tokens[3]
             //operand tokens[1]
 
+
+            //TO ADD
+            //082ac900: what is 19 plus 10 multiplied by 16
+
             int result = 0;
             int first = Integer.parseInt(tokens[0]);
             int second = Integer.parseInt(tokens[2]);
