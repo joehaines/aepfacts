@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba64a957-23a4-4ad8-8c8b-6b9ea3a17cd4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" />
     </list>
     <ignored path="aepfacts.iws" />
@@ -65,7 +64,7 @@
       <file leaf-file-name="QueryProcessorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+            <state line="35" column="6" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +73,7 @@
       <file leaf-file-name="QueryProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="51" selection-start="4834" selection-end="4834" vertical-scroll-proportion="0.6886792">
+            <state line="154" column="7" selection-start="4418" selection-end="4418" vertical-scroll-proportion="0.29245284">
               <folding />
             </state>
           </provider>
@@ -97,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/develogical/WebServer.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" />
       </list>
     </option>
   </component>
@@ -276,7 +275,7 @@
       <recent name="com.develogical" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueryProcessorTest.testFibb">
+  <component name="RunManager" selected="JUnit.QueryProcessorTest">
     <configuration default="false" name="WebServer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.develogical.WebServer" />
       <option name="VM_PARAMETERS" />
@@ -653,7 +652,11 @@
       <created>1340896653144</created>
       <updated>1340896653144</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="changed to use foreman with port 5000">
+      <created>1340897214777</created>
+      <updated>1340897214777</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -790,14 +793,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+        <state line="35" column="6" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="51" selection-start="4834" selection-end="4834" vertical-scroll-proportion="0.6886792">
+        <state line="154" column="7" selection-start="4418" selection-end="4418" vertical-scroll-proportion="0.29245284">
           <folding />
         </state>
       </provider>
