@@ -22,7 +22,18 @@ public class QueryProcessor {
 
             return String.valueOf(currentHighest);
 
-        }  else  if (query.contains("what is")) {
+        }     else  if (query.contains("to the power of")) {
+
+        String results[] = query.split(" ");
+
+        int first = Integer.parseInt(results[3]);
+        int second = Integer.parseInt(results[8]);
+
+        int result = (first^second);
+
+        return String.valueOf(result);
+
+    } else  if (query.contains("what is")) {
 
 
 
@@ -157,16 +168,7 @@ public class QueryProcessor {
 
             return String.valueOf(findFibb(number));
 
-         }     else  if (query.contains("to the power of")) {
 
-            String results[] = query.split(" ");
-
-            int first = Integer.parseInt(results[3]);
-            int second = Integer.parseInt(results[8]);
-
-            int result = (first^second);
-
-            return String.valueOf(result);
 
 
     }

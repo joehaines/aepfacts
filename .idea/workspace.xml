@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba64a957-23a4-4ad8-8c8b-6b9ea3a17cd4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" />
     </list>
     <ignored path="aepfacts.iws" />
@@ -64,7 +65,7 @@
       <file leaf-file-name="QueryProcessorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="6" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+            <state line="38" column="22" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +74,7 @@
       <file leaf-file-name="QueryProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="7" selection-start="4418" selection-end="4418" vertical-scroll-proportion="0.29245284">
+            <state line="24" column="9" selection-start="682" selection-end="682" vertical-scroll-proportion="0.6792453">
               <folding />
             </state>
           </provider>
@@ -96,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/develogical/WebServer.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java" />
       </list>
     </option>
   </component>
@@ -275,23 +276,7 @@
       <recent name="com.develogical" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueryProcessorTest">
-    <configuration default="false" name="WebServer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.develogical.WebServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="aepfacts" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.QueryProcessorTest.testSqRoot">
     <configuration default="false" name="QueryProcessorTest.testHighestNumber" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="aepfacts" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -371,6 +356,28 @@
       <option name="PACKAGE_NAME" value="com.develogical" />
       <option name="MAIN_CLASS_NAME" value="com.develogical.QueryProcessorTest" />
       <option name="METHOD_NAME" value="testFibb" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QueryProcessorTest.testSqRoot" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="aepfacts" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.develogical" />
+      <option name="MAIN_CLASS_NAME" value="com.develogical.QueryProcessorTest" />
+      <option name="METHOD_NAME" value="testSqRoot" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,11 +511,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WebServer" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testHighestNumber" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testMinus" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testFibb" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testHighestNumber" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testMinus" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testFibb" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.QueryProcessorTest.testSqRoot" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -656,7 +663,11 @@
       <created>1340897214777</created>
       <updated>1340897214777</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="changed to use foreman with port 5000">
+      <created>1340897247181</created>
+      <updated>1340897247181</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -793,14 +804,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/develogical/QueryProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
+        <state line="38" column="22" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="7" selection-start="4418" selection-end="4418" vertical-scroll-proportion="0.29245284">
+        <state line="24" column="9" selection-start="682" selection-end="682" vertical-scroll-proportion="0.6792453">
           <folding />
         </state>
       </provider>
