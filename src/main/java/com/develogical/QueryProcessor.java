@@ -9,10 +9,7 @@ public class QueryProcessor {
 
 
 
-        if (query.contains("hi")) {
-            return "hello";
-            //62694b40:%20what%20is%20your%20name
-        }  else  if (query.contains("which of the following numbers is the largest")) {
+        if (query.contains("which of the following numbers is the largest")) {
 
             String numbers_result[] = query.split(":");
             System.out.println("Numbers:" + numbers_result[2]);
