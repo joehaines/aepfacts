@@ -11,23 +11,14 @@ public class QueryProcessor {
 
         if (query.contains("which of the following numbers is the largest")) {
 
+            //1383b7a0: which of the following numbers is the largest: 417, 24, 54, 196
+
             String numbers_result[] = query.split(":");
             System.out.println("Numbers:" + numbers_result[2]);
 
             String numbers[] = numbers_result[2].split(",");
 
-            int currentHighest = 0;
-
-            for (int c = 0;c < numbers.length;c++) {
-
-                if (currentHighest < Integer.parseInt(numbers[c])) {
-
-                    currentHighest = Integer.parseInt(numbers[c]);
-
-                }
-
-
-            }
+            int currentHighest = findHighestNumber(numbers);
 
             return String.valueOf(currentHighest);
 
@@ -49,6 +40,24 @@ public class QueryProcessor {
 
         //default response
         return "I DON'T KNOW";
+    }
+
+    public int findHighestNumber(String[] numbers) {
+        int currentHighest = 0;
+
+        for (int c = 0;c < numbers.length;c++) {
+
+            String num = numbers[c].trim();
+
+            if (currentHighest < Integer.parseInt(num)) {
+
+                currentHighest = Integer.parseInt(num);
+
+            }
+
+
+        }
+        return currentHighest;
     }
 
 }
