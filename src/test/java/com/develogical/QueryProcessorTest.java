@@ -19,6 +19,13 @@ public class QueryProcessorTest {
         String result = new QueryProcessor().process("1383b7a0: which of the following numbers is the largest: 417, 24, 54, 196");
         assertThat(result, is("417"));
     }
+
+    @Test
+    public void testMinus() {
+        String result = new QueryProcessor().process("947ed210: what is 1 minus 6");
+        assertThat(result, is("-5"));
+    }
+
 }
 
 

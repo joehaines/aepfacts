@@ -41,7 +41,7 @@ public class QueryProcessor {
 
             int result = 0;
             int first = Integer.parseInt(tokens[0]);
-            int second = Integer.parseInt(tokens[3]);
+            int second = Integer.parseInt(tokens[2]);
 
             if (tokens[1].equals("multiplied")) {
 
