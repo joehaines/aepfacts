@@ -18,9 +18,8 @@ public class QueryProcessor {
 
             int currentHighest = 0;
 
-            for (int c = 0;numbers.length == c;c++) {
+            for (int c = 0;c < numbers.length;c++) {
 
-                //total += Integer.parseInt(numbers[c]);
                 if (currentHighest < Integer.parseInt(numbers[c])) {
 
                     currentHighest = Integer.parseInt(numbers[c]);
@@ -33,6 +32,9 @@ public class QueryProcessor {
             return String.valueOf(currentHighest);
 
         }  else  if (query.contains("what is")) {
+
+            //get out the two numbers and the operator
+            String function[] = query.split(":");
 
 
 
