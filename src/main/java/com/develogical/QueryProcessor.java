@@ -33,49 +33,6 @@ public class QueryProcessor {
 
         return String.valueOf(result);
 
-    } else  if (query.contains("what is")) {
-
-
-
-            //332153a0: what is 10 multiplied by 13
-
-            //get out the two numbers and the operator
-            String numbers = query.substring(18, query.length());
-
-            //10 multiplied by 13
-
-            String tokens[] = numbers.split(" ");
-
-            //first number tokens[0]
-            //second number tokens[3]
-            //operand tokens[1]
-
-            int result = 0;
-            int first = Integer.parseInt(tokens[0]);
-            int second = Integer.parseInt(tokens[2]);
-
-            if (tokens[1].equals("multiplied")) {
-
-                result = (first*second);
-
-            } else if (tokens[1].equals("plus")) {
-
-                result = (first+second);
-
-            } else if (tokens[1].equals("minus")) {
-
-                result = (first-second);
-
-            } else if (tokens[1].equals("divided")) {
-
-                result = (first/second);
-
-            }
-
-            System.out.println("WHAT IS STARTING:" + result);
-
-            return String.valueOf(result);
-
         }  else  if (query.contains("which of the following numbers is both a square and a cube")) {
 
             //d1a87b20: which of the following numbers is both a square and a cube: 64, 953
@@ -164,14 +121,59 @@ public class QueryProcessor {
             String second[] = first[1].split(" what is the ");
             String third[] = second[1].split(" ");
 
-            int number = Integer.parseInt(third[0]);
+            String final_result = third[0].substring(0, third[0].length()-2);
+
+            int number = Integer.parseInt(final_result);
 
             return String.valueOf(fib(number));
 
 
 
 
-    }
+    } else  if (query.contains("what is")) {
+
+
+
+            //332153a0: what is 10 multiplied by 13
+
+            //get out the two numbers and the operator
+            String numbers = query.substring(18, query.length());
+
+            //10 multiplied by 13
+
+            String tokens[] = numbers.split(" ");
+
+            //first number tokens[0]
+            //second number tokens[3]
+            //operand tokens[1]
+
+            int result = 0;
+            int first = Integer.parseInt(tokens[0]);
+            int second = Integer.parseInt(tokens[2]);
+
+            if (tokens[1].equals("multiplied")) {
+
+                result = (first*second);
+
+            } else if (tokens[1].equals("plus")) {
+
+                result = (first+second);
+
+            } else if (tokens[1].equals("minus")) {
+
+                result = (first-second);
+
+            } else if (tokens[1].equals("divided")) {
+
+                result = (first/second);
+
+            }
+
+            System.out.println("WHAT IS STARTING:" + result);
+
+            return String.valueOf(result);
+
+        }
 
 
         //e7042800: what is 10 to the power of 15
