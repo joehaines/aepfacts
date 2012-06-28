@@ -79,11 +79,26 @@ public class QueryProcessor {
             //if square root of number is int (whole) its a square
             //if ^3 is whole number
 
+            int first_sq = (first*first);
+            int first_cube = (first*first*first);
 
+            //check first is square
+            if ( (first_sq)-Math.floor(first_sq) == 0 ) {
 
+                if ( (first_cube)-Math.floor(first_cube) != 0 ) {
 
+                    return String.valueOf(second);
 
-            return String.valueOf(first);
+                }
+
+                //this number is square
+                return String.valueOf(first);
+
+            } else {
+
+                return String.valueOf(second);
+
+            }
 
 
         }  else  if (query.contains("who is the Prime Minister of Great Britain")) {

@@ -73,7 +73,7 @@
       <file leaf-file-name="QueryProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="25" selection-start="3525" selection-end="3525" vertical-scroll-proportion="0.5471698">
+            <state line="100" column="13" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.5188679">
               <folding />
             </state>
           </provider>
@@ -626,7 +626,11 @@
       <created>1340895436511</created>
       <updated>1340895436511</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="changed to use foreman with port 5000">
+      <created>1340895673741</created>
+      <updated>1340895673741</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -770,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/develogical/QueryProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="25" selection-start="3525" selection-end="3525" vertical-scroll-proportion="0.5471698">
+        <state line="100" column="13" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.5188679">
           <folding />
         </state>
       </provider>
