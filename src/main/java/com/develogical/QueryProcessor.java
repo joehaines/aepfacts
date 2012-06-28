@@ -24,7 +24,7 @@ public class QueryProcessor {
 
         }  else  if (query.contains("what is")) {
 
-            System.out.println("WHAT IS STARTING");
+
 
             //332153a0: what is 10 multiplied by 13
 
@@ -60,6 +60,8 @@ public class QueryProcessor {
                 result = (first/second);
 
             }
+
+            System.out.println("WHAT IS STARTING:" + result);
 
             return String.valueOf(result);
 
