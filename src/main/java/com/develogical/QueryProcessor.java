@@ -166,7 +166,7 @@ public class QueryProcessor {
 
             int number = Integer.parseInt(third[0]);
 
-            return String.valueOf(findFibb(number));
+            return String.valueOf(fib(number));
 
 
 
@@ -185,23 +185,12 @@ public class QueryProcessor {
     }
 
 
-    public long findFibb(int input) {
-
-        //number of elements to generate in a series
-        int limit = 20;
-
-        long[] series = new long[limit];
-
-        //create first 2 series elements
-        series[0] = 0;
-        series[1] = 1;
-
-        //create the Fibonacci series and store it in an array
-        for(int i=2; i < limit; i++){
-            series[i] = series[i-1] + series[i-2];
-        }
-
-        return series[input];
+    public static int fib(int n)
+    {
+        if (n <= 2)
+            return 1;
+        else
+            return fib(n - 1) + fib(n - 2);
     }
 
 
