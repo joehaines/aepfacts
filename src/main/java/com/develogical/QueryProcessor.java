@@ -19,15 +19,21 @@ public class QueryProcessor {
 
             String numbers[] = numbers_result[2].split(",");
 
-            int total = 0;
+            int currentHighest = 0;
 
             for (int c = 0;numbers.length == c;c++) {
 
-                total += Integer.parseInt(numbers[c]);
+                //total += Integer.parseInt(numbers[c]);
+                if (currentHighest < Integer.parseInt(numbers[c])) {
+
+                    currentHighest = Integer.parseInt(numbers[c]);
+
+                }
+
 
             }
 
-            return String.valueOf(total);
+            return String.valueOf(currentHighest);
 
         }  else  if (query.contains("what is")) {
 
