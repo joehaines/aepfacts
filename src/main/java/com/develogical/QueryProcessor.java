@@ -87,8 +87,28 @@ public class QueryProcessor {
             return "David Cameron";
 
 
-        }  else  if (query.contains("")) {
-            return "";
+
+            //50183b40: which of the following numbers are primes: 199, 915, 127, 356
+        }  else  if (query.contains("which of the following numbers are primes")) {
+
+            String input = query.substring(42, query.length());
+            String numbers[] = input.split(", ");
+
+            String result = "";
+
+            for (int c = 0;c < numbers.length;c++) {
+
+                if(isPrime(Integer.parseInt(numbers[c])) ) {
+
+                    result = result+ numbers[c] + ", ";
+
+                }
+
+            }
+
+            String final_result = result.substring(2, result.length());
+
+            return final_result;
         }
 
         //default response
@@ -111,6 +131,14 @@ public class QueryProcessor {
 
         }
         return currentHighest;
+    }
+
+    boolean isPrime(int n) {
+        for(int i=2;i<n;i++) {
+            if(n%i==0)
+                return false;
+        }
+        return true;
     }
 
 }
