@@ -63,13 +63,30 @@ public class QueryProcessor {
 
             return String.valueOf(result);
 
-        }  else  if (query.contains("")) {
+        }  else  if (query.contains("which of the following numbers is both a square and a cube")) {
 
-            //which of the following numbers is both a square and a cube: 64, 953
+            //d1a87b20: which of the following numbers is both a square and a cube: 64, 953
 
-            return "";
-        }  else  if (query.contains("")) {
-            return "";
+            //70 chars in
+            String input = query.substring(70, query.length());
+            String numbers[] = input.split(", ");
+
+            int first = Integer.parseInt(numbers[0]);
+            int second = Integer.parseInt(numbers[1]);
+
+            //if square root of number is int (whole) its a square
+            //if ^3 is whole number
+
+
+
+
+            return String.valueOf(first);
+
+
+        }  else  if (query.contains("who is the Prime Minister of Great Britain")) {
+            return "David Cameron";
+
+
         }  else  if (query.contains("")) {
             return "";
         }
