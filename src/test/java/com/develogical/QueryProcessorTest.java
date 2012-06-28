@@ -32,12 +32,11 @@ public class QueryProcessorTest {
         assertThat(result, is("4181"));
     }
 
-        /*
     @Test
     public void testSqRoot() {
         String result = new QueryProcessor().process("e08b4860: what is 14 to the power of 11");
-        assertThat(result, is("4181"));
-    }     */
+        assertThat(result, is("4049565169664"));
+    }
 
 }
 

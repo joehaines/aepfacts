@@ -29,7 +29,7 @@ public class QueryProcessor {
         int first = Integer.parseInt(results[3]);
         int second = Integer.parseInt(results[8]);
 
-        double result = Math.pow(first,second);
+        long result = (long)Math.pow(first,second);
 
 
 
