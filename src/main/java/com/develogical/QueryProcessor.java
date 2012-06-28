@@ -147,15 +147,32 @@ public class QueryProcessor {
         }     else  if (query.contains("which city is the Eiffel tower in")) {
             return "paris";
 
-        }     else  if (query.contains("what is the 19th number in the Fibonacci sequence")) {
+        }     else  if (query.contains("number in the Fibonacci sequence")) {
 
-            String input = query.substring(21, query.length()-35);
+            String first[] = query.split(":");
+            String second[] = first[1].split(" what is the ");
+            String third[] = second[1].split(" ");
 
-            int number = Integer.parseInt(input);
+            int number = Integer.parseInt(third[0]);
 
             return String.valueOf(findFibb(number));
 
-        }
+         }     else  if (query.contains("to the power of")) {
+
+            String results[] = query.split(" ");
+
+            int first = Integer.parseInt(results[3]);
+            int second = Integer.parseInt(results[8]);
+
+            int result = (first^second);
+
+            return String.valueOf(result);
+
+
+    }
+
+
+        //e7042800: what is 10 to the power of 15
 
 
 

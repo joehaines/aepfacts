@@ -26,6 +26,12 @@ public class QueryProcessorTest {
         assertThat(result, is("-5"));
     }
 
+    @Test
+    public void testFibb() {
+        String result = new QueryProcessor().process("84735d40: what is the 19th number in the Fibonacci sequence");
+        assertThat(result, is("4181"));
+    }
+
 }
 
 
