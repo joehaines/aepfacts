@@ -113,9 +113,14 @@ public class QueryProcessor {
 
             return final_result;
         }  else  if (query.contains("who played James Bond in the film Dr No")) {
-        return "Sean Connery";
+            return "Sean Connery";
 
-         }
+        }   else  if (query.contains("what colour is a banana")) {
+            return "yellow";
+
+        }
+
+        //what colour is a banana
 
         //default response
         return "I DON'T KNOW";
