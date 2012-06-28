@@ -82,23 +82,29 @@ public class QueryProcessor {
             int first_sq = (first*first);
             int first_cube = (first*first*first);
 
+            String results = "";
+
             //check first is square
             if ( (first_sq)-Math.floor(first_sq) == 0 ) {
 
                 if ( (first_cube)-Math.floor(first_cube) != 0 ) {
 
-                    return String.valueOf(second);
+                    results = results+ String.valueOf(second)+", ";
 
                 }
 
                 //this number is square
-                return String.valueOf(first);
+                results = results+ String.valueOf(first)+", ";
 
             } else {
 
-                return String.valueOf(second);
+                results = results+ String.valueOf(second)+", ";
 
             }
+
+            String final_result = results.substring(0, results.length()-2);
+
+            return final_result;
 
 
         }  else  if (query.contains("who is the Prime Minister of Great Britain")) {
@@ -143,7 +149,7 @@ public class QueryProcessor {
 
 
 
-        //which city is the Eiffel tower in
+        //what is the 19th number in the Fibonacci sequence
 
         //default response
         return "I DON'T KNOW";
