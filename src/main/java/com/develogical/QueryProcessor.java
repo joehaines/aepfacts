@@ -108,7 +108,7 @@ public class QueryProcessor {
 
             }
 
-            String final_result = result.substring(2, result.length());
+            String final_result = result.substring(4, result.length());
 
             return final_result;
         }
