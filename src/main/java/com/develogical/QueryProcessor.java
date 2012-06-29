@@ -144,7 +144,7 @@ public class QueryProcessor {
             int second = Integer.parseInt(tokens[2]);
             int third = Integer.parseInt(tokens[5]);
 
-            int result = (first + second * third);
+            int result = (first + (second * third));
 
             return String.valueOf(result);
 
