@@ -132,7 +132,23 @@ public class QueryProcessor {
 
 
 
-    } else  if (query.contains("what is")) {
+    }  else  if (query.contains("what is") && query.contains("plus") && query.contains("multiplied")) {
+
+
+            //what is 19 plus 6 multiplied by 18
+
+            String numbers = query.substring(18, query.length());
+            String tokens[] = numbers.split(" ");
+
+            int first = Integer.parseInt(tokens[0]);
+            int second = Integer.parseInt(tokens[2]);
+            int third = Integer.parseInt(tokens[5]);
+
+            int result = (first + second * third);
+
+            return String.valueOf(result);
+
+    }  else  if (query.contains("what is")) {
 
 
 
@@ -152,6 +168,7 @@ public class QueryProcessor {
 
             //TO ADD
             //082ac900: what is 19 plus 10 multiplied by 16
+
 
             int result = 0;
             int first = Integer.parseInt(tokens[0]);
